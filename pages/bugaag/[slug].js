@@ -19,7 +19,7 @@ import classes from '../../utils/classes';
 import client from '../../utils/client';
 import { urlFor } from '../../utils/image';
 import Hoos from '../../components/Hoos';
-import '../../'
+
 import ProductItem from '../../components/ProductItem';
 
 export default function ProductScreen(props) {
