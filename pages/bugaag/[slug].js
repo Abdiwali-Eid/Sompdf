@@ -19,7 +19,7 @@ import classes from '../../utils/classes';
 import client from '../../utils/client';
 import { urlFor } from '../../utils/image';
 import Hoos from '../../components/Hoos';
-
+import '../../'
 import ProductItem from '../../components/ProductItem';
 
 export default function ProductScreen(props) {
@@ -308,7 +308,7 @@ export default function ProductScreen(props) {
                       </a>
                     ) : bugaag.name === 'Dal dad waayay' ? (
                       <a
-                        href="/files/Dal Dad Waayey iyo Duni Damiir Beeshay!.pdf"
+                        href="../../Dal Dad Waayey iyo Duni Damiir Beeshay!.pdf"
                         alt="alt text"
                         target="_blank"
                         rel="noopener noreferrer"
